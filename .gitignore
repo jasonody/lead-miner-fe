@@ -35,3 +35,21 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# ts-skeleton
+.tmp/
+.tscache/
+.idea/
+atlassian-ide-plugin.xml
+docs/
+!dist/index.html
+dist/
+report/
+vendor/
+typings/
+src/**/*.js
+src/**/*.js.map
+test/**/*.js
+test/**/*.js.map
+!test/karma.conf.js
+!test/protractor.conf.js
