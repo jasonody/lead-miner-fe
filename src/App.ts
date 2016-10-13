@@ -10,7 +10,7 @@ import "angular-ui-router";
 import "bootstrap";
 import "bootstrap/css/bootstrap.css!";
 
-angular.module("app", [
+angular.module("fe", [
   "ui.router"
 ]);
 
