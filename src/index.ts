@@ -4,7 +4,7 @@ import "./module/dashboard/Dashboard";
 import "./module/menu/Menu";
 import "./module/auth/Auth";
 import "./services/EndpointService";
-import "./style/style.css!";
+import "./styles/styles.css!";
 
 App.element(document).ready(() => {
   App.bootstrap(document, [
