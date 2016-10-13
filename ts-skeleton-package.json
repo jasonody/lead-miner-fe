@@ -1,7 +1,12 @@
 {
-  "name": "lead-miner-fe",
-  "version": "0.1.0",
-  "description": "Lead Miner Front End",
+  "name": "ts-skeleton",
+  "description": "Skeleton app with typescript",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:b091/ts-skeleton.git"
+  },
+  "version": "0.4.0",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "~2.16.0",
@@ -60,15 +65,5 @@
       "ts": "github:frankwallis/plugin-typescript@4.0.5",
       "typescript": "npm:typescript@1.8.9"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://jasonody@github.com/jasonody/lead-miner-fe.git"
-  },
-  "author": "Jason Ody",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/jasonody/lead-miner-fe/issues"
-  },
-  "homepage": "https://github.com/jasonody/lead-miner-fe#readme"
+  }
 }
