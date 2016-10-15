@@ -2,6 +2,7 @@
 /// <reference path="../typings/globals/angular/index.d.ts" />
 /// <reference path="../typings/globals/angular-ui-router/index.d.ts" />
 /// <reference path="../typings/globals/toastr/index.d.ts" />
+/// <reference path="../typings/globals/fbsdk/index.d.ts" />
 
 /* tslint:disable:variable-name */
 
