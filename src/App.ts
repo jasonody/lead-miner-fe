@@ -10,10 +10,10 @@ import "angular-ui-router";
 import "bootstrap";
 import "bootstrap/css/bootstrap.css!";
 
-angular.module("fe", [
+const App:ng.IAngularStatic = angular;
+
+App.module("fe", [
   "ui.router"
 ]);
-
-const App:ng.IAngularStatic = angular;
 
 export {App};
