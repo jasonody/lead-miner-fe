@@ -1,7 +1,9 @@
 import {App} from "../App";
+import {loginService} from "./login.service";
 import {FacebookLoginController} from "./facebookLogin.controller";
 
 const module:ng.IModule = App.module("fe.login", []);
+module.service("loginService", loginService);
 module.controller("FacebookLoginController", FacebookLoginController);
 
 // @ngInject
