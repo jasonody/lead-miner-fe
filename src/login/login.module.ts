@@ -2,7 +2,7 @@ import {App} from "../App";
 import {loginService} from "./login.service";
 import {FacebookLoginController} from "./facebookLogin.controller";
 
-const module:ng.IModule = App.module("fe.login", []);
+const module:ng.IModule = App.module("lm");
 module.service("loginService", loginService);
 module.controller("FacebookLoginController", FacebookLoginController);
 
