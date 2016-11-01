@@ -12,7 +12,7 @@ import "bootstrap/css/bootstrap.css!";
 
 const App:ng.IAngularStatic = angular;
 
-App.module("fe", [
+App.module("lm", [
   "ui.router"
 ]);
 
