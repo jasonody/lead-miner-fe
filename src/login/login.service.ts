@@ -6,8 +6,9 @@ export class loginService {
 
   }
 
-  public loginWithFacebook(code:string):ng.IHttpPromise<{}> {
+  public loginWithFacebook(code:string):ng.IPromise<{}> {
     
-    return this.$http.post(this.baseUri + "/login/facebook/?code=" + code, { code });
+    return this.$http.post(this.baseUri + "/login/facebook/?code=" + code, { code })
+      .then(response => { return response.data });
   }
 }
